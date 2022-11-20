@@ -350,90 +350,77 @@
     }
     /* ------------------------footer------------------------------------- */
     footer{
-        width: 100%;
-        overflow: hidden;
+        height: 100vh;
     }
     .adress{
-        position: relative;
         margin-left: 20px;
-        height:30vh ;
+        height:50vh ;
         letter-spacing: 3px;
-        /* background: #000; */
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
     .contact{
-        position: absolute;
-        top: 20px;
-        left: 35px;
+        margin-top: 4%;
     }
     .loction{
-        font-size: 20px;
-        position: absolute;
-        top: 77px;
-        left: 35px;
+        margin-top: 2%;
     }
     .call{
-        font-size: 20px;
-        position: absolute;
-        top: 122px;
-        left: 35px;
+        margin-top:4%;
     }
     .eamileadress{
-        font-size: 20px;
-        position: absolute;
-        top: 167px;
-        left: 37px;
-        letter-spacing: 2px;
+        margin-top: 4%;
+        letter-spacing: 0px;
     }
+    /* =================== */
     .inputbox{
         height: 50vh;
         margin-left: 20px;
-        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
     input{
-        width: 90%;
-        transform: translateX(150px);
+        width: 70%;
+        transform: translateX(50px);
         outline: #f00;
         border-bottom-width: 0px;
         border: none;
         transition: all 0.5s linear;
-        font-size: 30px;
-
+        display: block;
     }
     input:hover{
         transform: translateX(0px);
         border-bottom:1px solid #f00 ;
     }
     .phone{
-        position: absolute;
-        top: 63px;
+       margin-top:0px;
     }
     .number{
-        position: absolute;
-        top: 134px;
+        margin-top:5%;
     }
     .email{
-        position: absolute;
-        top: 217px;
+        margin-top:5%;
+
     }
     .sendmsg{
-        position: absolute;
-        right: 30px;
-        bottom: 17px;
-        border-radius: 5px;
-        text-decoration: none;
-        background-color: rgba( 0, 0, 255, 0.6);
-        padding: 10px;
-        color: #fff;
-
+        margin-left: 35%;
+        padding: 6px;
+        display: inline-block;
+        margin-top: 10%;
         box-sizing: border-box;
+        background-color: rgba(0, 0, 255, 0.745);
+        border-radius: 5px;
+        height: 22%;
+        color: #fff;
     }
     .sendmsg:hover{
         text-decoration: none;
     }
     button{
-        width: 150px;
-        position: absolute;
-        bottom: 20px;
-        left: 20px;
+        margin-top: 10%;
+        margin-bottom: 20px;
+        display: inline-block;
     }
 }

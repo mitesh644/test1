@@ -69,7 +69,7 @@
          align-content: flex-end;
          width: 82%;
          background: rgba(255, 255, 255, 0.764);
-          height: 100vh;
+          height: 50vh;
      }
     a[class*="link"] {
         padding: 5px;
