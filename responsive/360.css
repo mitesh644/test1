@@ -67,7 +67,7 @@
          justify-content: center;
          font-size: 20px;
          align-content: flex-end;
-         width: 87%;
+         width: 82%;
          background: rgba(255, 255, 255, 0.764);
           height: 100vh;
      }
@@ -86,26 +86,22 @@
         height: 100vh;
         background-image: url(../img/banner4.jpg);
         background-size: 100% 100%;
-        color: #000;
-        position: relative;
-    }
-    .innerbannersectio{
-        display: flex;
         justify-content: center;
         align-items: center;
+        margin-left: 0px;
+        width: 100%;
+        display: flex;
     }
     .bannertext{
-        position: absolute;
-        top: 230px;
         color: #fff;
         font-size: 20px;
+        margin-left: 10%;
     }
    
     .designer{
-        position: absolute;
-        top: 295px;
         font-size: 12px;
         color: #fff;
+        margin-left: 15%;
     }
     .bannertext::first-letter{
         position: absolute;
@@ -189,38 +185,35 @@
     /* ---------------------------------aboutsection------------------ */
     .abouttext{
         height: 100vh;
-        position: relative;
+        display: flex;
     }
     .aboutinnerbox1{
         height: 50vh;
     }
     .aboutinnerbox2{
         height: 50vh;
+        justify-content: center;
+        align-self: center;
+        flex-direction: column;
     }
     .display-4{
-        position: relative;
-        top: 2px;
-        left: 20px;
         font-size: 22px;
+        margin-left: 20px;
     }
     .paragraph{
-        position: absolute;
-        top: 41px;
-        left: 5px;
         text-align: justify;
         letter-spacing: 1px;
         font-size: 10px;
     }
     .click{
-        position: absolute;
-        bottom: 20px;
-        left: 50px;
-        background-color:rgba(255, 0 , 0, 0.8);
-        padding: 10px;
-        width: 200px;
+        background-color: rgba(255, 0 , 0, 0.8);
+        padding: 13px;
+        margin-left: 26%;
         color: black;
+        padding-left: 46px;
+        padding-right: 47px;
         border-radius: 15px;
-        text-align: center;
+        text-align: center;;
     }
     .click:hover{
         color: #f00;
@@ -259,79 +252,74 @@
         height: 100vh;
     }
     .adress{
-        position: relative;
         margin-left: 20px;
         height:50vh ;
         letter-spacing: 3px;
-        /* background: #000; */
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
     .contact{
-        position: absolute;
-        top: 20px;
-        left: 7px;
+        margin-top: 4%;
     }
     .loction{
-        position: absolute;
-        top: 68px;
-        left: 7px;
+        margin-top: 2%;
     }
     .call{
-        position: absolute;
-        top: 106px;
-        left: 7px;
+        margin-top:4%;
     }
     .eamileadress{
-        position: absolute;
-        top: 145px;
-        left: 7px;
+        margin-top: 4%;
         letter-spacing: 0px;
     }
+    /* =================== */
     .inputbox{
         height: 50vh;
         margin-left: 20px;
-        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
     input{
-        width: 50%;
+        width: 70%;
         transform: translateX(50px);
         outline: #f00;
         border-bottom-width: 0px;
         border: none;
         transition: all 0.5s linear;
-
+        display: block;
     }
     input:hover{
         transform: translateX(0px);
         border-bottom:1px solid #f00 ;
     }
     .phone{
-        position: absolute;
-        top: 50px;
+       margin-top:0px;
     }
     .number{
-        position: absolute;
-        top: 84px;
+        margin-top:5%;
     }
     .email{
-        position: absolute;
-        top: 123px;
+        margin-top:5%;
 
     }
     .sendmsg{
-        position: absolute;
-        right: 30px;
-        bottom: 17px;
-        border-radius: 5px;
-        background-color: rgba( 0, 0, 255, 0.6);
-        padding: 10px;
-        color: #fff;
+        margin-left: 15%;
+        padding: 6px;
+        display: inline-block;
+        margin-top: 10%;
         box-sizing: border-box;
+        background-color: rgba(0, 0, 255, 0.745);
+        border-radius: 5px;
+        height: 22%;
+        color: #fff;
     }
     .sendmsg:hover{
         text-decoration: none;
     }
     button{
-        position: absolute;
-        bottom: 20px;
+        margin-top: 10%;
+        margin-bottom: 20px;
+        display: inline-block;
     }
 }
