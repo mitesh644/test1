@@ -101,7 +101,7 @@
         font-size: 26px;
         margin-left: 9%;
         letter-spacing: 2px;
-        margin-top: 45%;
+        margin-top: 50%;
     }
    
     .designer{
@@ -307,13 +307,13 @@
         border-bottom:1px solid #f00 ;
     }
     .phone{
-       margin-top:0px;
+       margin-top:3%;
     }
     .number{
-        margin-top:5%;
+        margin-top:14%;
     }
     .email{
-        margin-top:5%;
+        margin-top:15%;
 
     }
     .sendmsg{
