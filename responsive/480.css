@@ -91,12 +91,17 @@
         margin-left: 0px;
         width: 100%;
         display: flex;
+        backdrop-filter: blur(5px);
+    }
+    .bannerinnertext{
+        height: 100%;
     }
     .bannertext{
         color: #fff;
         font-size: 26px;
         margin-left: 9%;
         letter-spacing: 2px;
+        margin-top: 45%;
     }
    
     .designer{
@@ -104,6 +109,7 @@
         color: #fff;
         margin-left: 15%;
         letter-spacing: 2px;
+
     }
     .bannertext::first-letter{
         position: absolute;
@@ -320,9 +326,13 @@
         border-radius: 5px;
         height: 22%;
         color: #fff;
+        border: 1px solid transparent;
     }
     .sendmsg:hover{
         text-decoration: none;
+        background-color:transparent;
+        border:1px solid #f00;
+        color: #f00;
     }
     button{
         margin-top: 10%;
