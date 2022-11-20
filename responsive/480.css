@@ -237,7 +237,7 @@
         text-align: justify;
         letter-spacing: 1px;
         font-size: 13px;
-        margin-top: 10%;
+        margin-top: 20%;
     }
 
     .hide {
@@ -272,7 +272,7 @@
     .css,
     .bootstrap,
     .js {
-        box-shadow: 5px 5px 3px gray;
+        box-shadow: 5px 5px 3px rgb(231, 82, 82);
         height: 23%;
         transform: rotatey(81deg);
         transition: all 5s ease;
@@ -369,7 +369,7 @@
         box-sizing: border-box;
         background-color: rgba(0, 0, 255, 0.745);
         border-radius: 5px;
-        height: 14%;
+        height: 18%;
         color: #fff;
         border: 1px solid transparent;
     }
@@ -382,7 +382,7 @@
     }
 
     button {
-        margin-top: 10%;
+        margin-top: 5%;
         margin-bottom: 20px;
         display: inline-block;
     }
