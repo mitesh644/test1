@@ -229,7 +229,7 @@
     }
 
     .display-4 {
-        font-size: 22px;
+        font-size: 20px;
         margin-left: 18%;
     }
 
@@ -237,8 +237,8 @@
         text-align: justify;
         letter-spacing: 1px;
         font-size: 13px;
-        margin-top: 20%;
-        margin-bottom: 20%;
+        margin-top: 10%;
+        margin-bottom: 10%;
     }
 
     .hide {
