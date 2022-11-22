@@ -48,26 +48,26 @@
 </head>
 
 <body>
+    <div class=" burgurmenu">
+        <a class="mainburgurmenu" data-toggle="collapse" href="#na"></a>
+        <nav class="row collapse navbar" id="na">
+            <ul class="nav-navbar justify-content-center">
+                <li class="nav-item">
+                    <a href="#home" class="item-link">home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="item-link">about</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#our" class="item-link">service</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="item-link">contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
     <div class="container">
-        <div class=" burgurmenu">
-            <a class="mainburgurmenu" data-toggle="collapse" href="#na"></a>
-            <nav class="row collapse navbar" id="na">
-                <ul class="nav-navbar justify-content-center">
-                    <li class="nav-item">
-                        <a href="#home" class="item-link">home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#about" class="item-link">about</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#our" class="item-link">service</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#contact" class="item-link">contact</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
         <section id="home" class="row bannersection">
             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12  bannerinnertext">
                 <div class=" bannertext">mitesh makwana</div>
@@ -151,41 +151,37 @@
     function chang() {
         document.getElementById('paragraph')
             .style.display = "none";
-            alert('PARAGRAPH REMOVE');
+        alert('PARAGRAPH REMOVE');
         document.getElementById('hide')
-        .style.display = "block";
+            .style.display = "block";
 
     }
     function mitesh() {
         alert(' thanks for visit my website ');
     }
     function vealidation() {
-        var text = document .getElementById('text').value;
+        var text = document.getElementById('text').value;
         if (text == '') {
             alert('ENTER YOUR NAME');
             x = 0;
         }
-        else {
-            return true;
-        }
-        var number = document .getElementById('number').value;
-        if(number ==''){
+        var number = document.getElementById('number').value;
+        if (number == '') {
             alert('ENTER YOUR MOBILE NUMBER');
             x = 0;
         }
-        else{
-            return true;
-        }
-        var email = document .getElementById('email').value;
-        if(email ==''){
+        var email = document.getElementById('email').value;
+        if (email == '') {
             alert('ENTER YOUR EAMIL ADDRESS');
             x = 0;
         }
-        else{
+        if(x= 0){
+            return false;
+        }
+        else {
             return true;
         }
 
-        
     }
 </script>
 

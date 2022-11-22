@@ -231,7 +231,7 @@
         box-shadow: 5px 5px 3px gray;
         height: 23%;
         transform: rotatey(81deg);
-        transition: all 5s ease;
+        transition: all 0.5s ease;
         display: flex;
         justify-content: center;
         align-items: center;

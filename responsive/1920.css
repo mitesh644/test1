@@ -88,17 +88,17 @@
         background-size: 100% 100%;
         color: #000;
         position: relative;
+        animation: myimg ;
+        animation-delay:0.5s;
+        animation-duration: 25s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
     }
 
     .innerbannersectio {
         display: flex;
         justify-content: end;
         align-items: center;
-        animation: myimg ;
-        animation-delay:0.5s;
-        animation-duration: 25s;
-        animation-timing-function: linear;
-        animation-iteration-count: infinite;
     }
     @keyframes myimg {
         0%,100%{
@@ -316,50 +316,40 @@
     }
 
     .adress {
-        position: relative;
         margin-left: 20px;
-        height: 30vh;
+        height: 50vh;
         letter-spacing: 3px;
         /* background: #000; */
     }
 
     .contact {
-        position: absolute;
-        top: 20px;
-        left: 35px;
+        font-size: 35px;
     }
 
     .loction {
-        font-size: 20px;
-        position: absolute;
-        top: 77px;
-        left: 35px;
+        font-size: 35px;
+       margin-top: 3%;
     }
 
     .call {
-        font-size: 20px;
-        position: absolute;
-        top: 122px;
-        left: 35px;
+      margin-top: 3%;
+        font-size: 35px;
     }
 
     .eamileadress {
-        font-size: 20px;
-        position: absolute;
-        top: 167px;
-        left: 37px;
-        letter-spacing: 2px;
+        font-size: 35px;
+       margin-top: 3%;
+        letter-spacing: 3px;
     }
 
     .inputbox {
-        height: 70vh;
+        height: 50vh;
         margin-left: 20px;
-        position: relative;
     }
 
     input {
-        width: 90%;
-        transform: translateX(150px);
+        width: 100%;
+        transform: translateX(180px);
         outline: #f00;
         border-bottom-width: 0px;
         border: none;
@@ -369,48 +359,48 @@
     }
 
     input:hover {
-        transform: translateX(0px);
+        transform: translateX(100px);
         border-bottom: 1px solid #f00;
     }
 
-    .phone {
-        position: absolute;
-        top: 63px;
+    .text{
+        margin-top: 3%;
     }
 
     .number {
-        position: absolute;
-        top: 134px;
+        margin-top: 3%;
     }
 
     .email {
-        position: absolute;
-        top: 217px;
+        margin-top: 3%;
     }
 
     .sendmsg {
-        position: absolute;
-        right: 30px;
-        bottom: 17px;
         border-radius: 5px;
         text-decoration: none;
         background-color: rgba(0, 0, 255, 0.6);
-        padding: 10px;
+        padding: 20px;
         color: #fff;
-
         box-sizing: border-box;
+        float: right;
+        margin-top: 4%;
+        font-size: 25px;
+        border: 1px solid transparent;
+        transition: all 1s ease;
+        margin-right: 5%;
+    }
+    .sendmsg:hover{
+        text-decoration: none;
+        border: 1px solid #f00;
+        background-color: transparent;
+        color: #f00;
     }
 
-    button {
-        width: 150px;
-        position: absolute;
-        bottom: 20px;
-        left: 20px;
-    }
-    /* -------------------js-------------------- */
-    .hide{
-        position: absolute;
-        top: 300px;
-        margin-left: 187px;
+   .btn-danger {
+    width: 150px;
+  
+    margin-top: 4%;
+    padding: 12px;
+    font-size: 30px;
     }
 }

@@ -336,101 +336,86 @@
     }
 
     /* ================================================= */
-    footer {
-        width: 100%;
-        overflow: hidden;
+    footer{
+        height: 100vh;
     }
-
-    .adress {
-        position: relative;
+    .adress{
         margin-left: 20px;
-        height: 50vh;
+        height:50vh ;
         letter-spacing: 3px;
-        /* background: #000; */
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
-
-    .contact {
-        position: absolute;
-        top: 92px;
-        left: 90px;
-    }
-
-    .loction {
+    .contact{
+        margin-top: 4%;
         font-size: 20px;
-        position: absolute;
-        top: 157px;
-        left: 90px;
     }
-
-    .call {
+    .loction{
+        margin-top: 2%;
         font-size: 20px;
-        position: absolute;
-        top: 231px;
-        left: 90px;
     }
-
-    .eamileadress {
+    .call{
+        margin-top:4%;
         font-size: 20px;
-        position: absolute;
-        top: 306px;
-        left: 90px;
-        letter-spacing: 2px;
     }
-
-    .inputbox {
-        height: 41vh;
+    .eamileadress{
+        margin-top: 4%;
+        letter-spacing: 3px;
+        font-size: 20px;
+    }
+    /* =================== */
+    .inputbox{
+        height: 50vh;
         margin-left: 20px;
-        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
-
-    input {
-        width: 50%;
-        transform: translateX(150px);
+    input{
+        width: 70%;
+        transform: translateX(50px);
         outline: #f00;
         border-bottom-width: 0px;
         border: none;
         transition: all 0.5s linear;
-        font-size: 30px;
+        display: block;
+        font-size: 27px;
+    }
+    input:hover{
+        transform: translateX(0px);
+        border-bottom:1px solid #f00 ;
+    }
+    .phone{
+       margin-top:0px;
+    }
+    .number{
+        margin-top:5%;
+    }
+    .email{
+        margin-top:5%;
 
     }
-
-    input:hover {
-        transform: translateX(90px);
-        border-bottom: 1px solid #f00;
-    }
-
-    .phone {
-        position: absolute;
-        top: 9px;
-    }
-
-    .number {
-        position: absolute;
-        top: 76px;
-    }
-
-    .email {
-        position: absolute;
-        top: 143px;
-    }
-
-    .sendmsg {
-        position: absolute;
-        right: 30px;
-        bottom: 17px;
-        border-radius: 5px;
-        text-decoration: none;
-        background-color: rgba(0, 0, 255, 0.6);
-        padding: 10px;
-        color: #fff;
-
+    .sendmsg{
+        margin-left: 15%;
+        padding: 6px;
+        display: inline-block;
+        margin-top: 10%;
         box-sizing: border-box;
+        background-color: rgba(0, 0, 255, 0.745);
+        border-radius: 5px;
+        height: 16%;
+        float: right;
+        color: #fff;
+        font-size: 29px;
     }
-
-    button {
-        width: 150px;
-        position: absolute;
-        bottom: 20px;
-        left: 20px;
+    .sendmsg:hover{
+        text-decoration: none;
+    }
+    .btn-danger{
+        margin-top: 9%;
+        margin-bottom: 20px;
+        display: inline-block;
+        font-size: 30px;
     }
 }
