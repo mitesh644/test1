@@ -83,9 +83,10 @@
     
     /* ---------------------------------navbarend------------------- */
     .bannersection{
-        height: 100vh;
-        background-image: url(../img/banner4.jpg);
+        height: 90vh;
+        background-image: url(../img/mitesh.jpg);
         background-size: 100% 100%;
+        background-attachment: fixed;
         justify-content: center;
         align-items: center;
         margin-left: 0px;
